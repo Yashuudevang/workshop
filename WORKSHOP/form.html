@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newfile.css">
+    <script src="form.js"></script>  
+</head>
+<body>
+    <div class="container">
+        <h1>Form</h1>
+        <p>Fill the form</p>
+        <div class="box1" ></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure fuga quasi perferendis cumque, tenetur corrupti est ab tempora dolorem provident, architecto repudiandae animi earum suscipit saepe placeat vitae temporibus.</p>
+        <style>
+        
+        </style>
+        <div>
+            <form name="formname" onsubmit="return validateForm()">
+                <div class="name-container">
+                    <label for="nameid">Name</label>
+                    <span>*</span>
+                    <span>:</span>
+                    <input type="text" id="nameid" name="name" required>
+                </div>
+                <div class="name-container">
+                    <label for="email">Email</label>
+                    <span>*</span>
+                    <span>:</span>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="name-container">
+                    <label for="Phone">Phone number</label>
+                    <span>*</span>
+                    <span>:</span>
+                    <input type="Phone" id="Phone" name="Phone" required>
+                </div>
+                <div class="name-container">
+                    <label for="Gender">Gender</label>
+                    <span>*</span>
+                    <span>:</span>
+                    <input type="radio" id="male" name="Gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="Gender" value="Female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="submit-container">
+                    <button type="Submit" value="submit">Submit</button>
+                    <button type="Reset" value="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

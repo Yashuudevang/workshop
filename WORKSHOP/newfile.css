@@ -1,0 +1,94 @@
+h1{
+    color: rgb(104, 90, 39);
+    /* background-color: rgb(146, 146, 165); */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 248, 248);
+    color: rgb(0, 0, 0);
+    
+    /* background-color: rgb(255, 0, 0); */
+    
+}
+body{
+    background-color: rgb(154, 144, 144);
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    /* font-family: 'c', Courier, monospace; */
+    block-size: 20px;
+    color: red;
+}
+.name-container,.submit-container{
+    /* background-color: rgb(219, 180, 180); */
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    /* margin: 10px 0; */
+    text-align: center;
+    width: 50%;
+    /* margin-left: 405px; */
+    font-size: medium;
+}
+.name-container label{
+    color: rgb(95, 2, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+h1 {
+    color: rgb(104, 90, 39);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 248, 248);
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgb(154, 144, 144);
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    block-size: 20px;
+    color: red;
+}
+
+.name-container, .submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 50%;
+    margin: 10px auto; /* Center the container */
+    font-size: medium;
+    border-radius: 20px;
+}
+
+.name-container label {
+    color: rgb(95, 2, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    flex: 1; /* Allow the label to take up available space */
+    text-align: left; /* Align text to the left */
+}
+
+.name-container input {
+    flex: 1; /* Allow the input to take up more space */
+    margin-left: 0px; /* Add some space between the label and input */
+}
